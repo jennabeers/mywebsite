@@ -2,35 +2,73 @@ div {
     border-radius: 5px;
     font-family: Tahoma, sans-serif;
 }
-a{
-    text-decoration: none;
-    color: #787878;
+body.landing, body.gallery{
+    text-align: center;
+    background-image: url("images/background.jpg");
+    background-size: 1000px 773px
 }
-a:hover{
-    color: white;
+img.headshot{
+    border: 2px solid;
+    border-radius: 150px;
+    border-style: none;
+    max-height: 200px;
+    max-width: 200px;
+}
+p.landing {
+    font-family: sans-serif;
+    font-weight: medium;
+    color: #fffff1;
+    padding-left: 225px;
+    padding-right: 225px;
+}
+a:link{
+    text-decoration: none;
+    color: #c65642;
+}
+a:hover, a.page, a:visited{
+    color: #0b7d99;
+}
+input[type=text]{
+    color: #434343;
+}
+input[type=submit]{
+    background: #c65642;
+}
+div.page{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: #c65642;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.page a{
+ vertical-align: middle;
+ text-align: center;
 }
 #header {
     z-index: 1; 
     position: fixed;
-    width: 97.5%;
+    width: 98.5%;
     margin-top: -15px;
     height: 50px;
-    background-color: #AFD8DE;
+    background-color: #80d0e9;
 	margin-bottom: 15px;   
 }
 #name {
     float: left;
-    font-size: 22px;
     margin: 10px;
     padding-top: 10px;
-    padding-bottom: 5px;
+    font-size: 22px;
     font-family: Tahoma, sans-serif;
-    color: #787878;
+    color: black;
+   
 }
 #email{
 	float:right;
 	margin-right: 10px;
-	padding-top: 5px;
+	padding-top: 20px;
 	font-size: 16px;
 	font-family: Tahoma, sans-serif;
 }
@@ -61,7 +99,7 @@ li {
     float: left;
     width: 10%;
     height: 500px;
-    background-color: #B3BBBD;
+    background-color: #c65642;
 	margin-top: 50px;
 	margin-bottom: 10px;
 }
@@ -71,13 +109,21 @@ li {
     margin-top: 50px;
     width: 88%;
     height: 500px;
-    background-color: #DCF6F7;
+    background-image: url("images/background.jpg");
 	margin-bottom: 10px;
+}
+img.example{
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 150px;
+    border-style: none;
+    max-height: 200px;
+    max-width: 200px;
 }
 #footer {
     position: relative;
     height: 40px; 
-    background-color: #5EAFB5;
+    background-color: #80d0e9;
     clear: both;
 }
 #footer p{
