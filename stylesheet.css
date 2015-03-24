@@ -2,7 +2,14 @@ div {
     border-radius: 5px;
     font-family: Tahoma, sans-serif;
 }
-body.landing, body.gallery{
+li.navigation{
+    list-style-type: none;
+}
+a.navigation{
+    color: #fffff1;
+    text-decoration: none;
+}
+body.landing{
     text-align: center;
     background-image: url("images/background.jpg");
     background-size: 1000px 773px
@@ -21,7 +28,7 @@ p.landing {
     padding-left: 225px;
     padding-right: 225px;
 }
-a:link{
+a.intext{
     text-decoration: none;
     color: #c65642;
 }
@@ -33,15 +40,6 @@ input[type=text]{
 }
 input[type=submit]{
     background: #c65642;
-}
-div.page{
-    display: inline-block;
-    width: 100px;
-    height: 30px;
-    background-color: #c65642;
-    margin-top: 30px;
-    margin-right: 20px;
-    margin-left: 20px;
 }
 .page a{
  vertical-align: middle;
@@ -63,7 +61,6 @@ div.page{
     font-size: 22px;
     font-family: Tahoma, sans-serif;
     color: black;
-   
 }
 #email{
 	float:right;
@@ -89,7 +86,7 @@ h3 {
     font-size: 14px;
     font-family: 'Lucida Bright', Georgia, serif;
 }
-li {
+li.resume{
     list-style-type: square;
     font-size: 14px;
     font-family: 'Lucida Bright', Georgia, serif;
@@ -102,6 +99,7 @@ li {
     background-color: #c65642;
 	margin-top: 50px;
 	margin-bottom: 10px;
+    text-align: center;
 }
 .right {
     position: relative;
@@ -114,11 +112,19 @@ li {
 }
 img.example{
     display: inline-block;
+    margin: 10px 40px 10px 40px;
     border: 2px solid;
-    border-radius: 150px;
     border-style: none;
-    max-height: 200px;
-    max-width: 200px;
+    width: 350px;
+    height: 225px;
+}
+.column1 {
+    float: left;
+    width: 50%;
+}
+.column2 {
+    float: right;
+    width: 50%;
 }
 #footer {
     position: relative;
